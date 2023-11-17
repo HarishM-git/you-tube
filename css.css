@@ -1,0 +1,25 @@
+.imag{
+  width: 250px;
+  height:250px;
+  object-fit: contain;
+  border-width: 2px;
+  object-position: top;
+  border-style: solid;
+  border-color: black;
+  margin-right: 15px;
+
+}
+.in{
+  display: inline-block;
+
+}
+.input-box{
+  padding:5px;
+  margin-bottom: 15px;
+}
+
+.ha{
+  border-width: 5px;
+  border-color: black;
+  
+}
