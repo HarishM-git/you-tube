@@ -24,3 +24,6 @@
   border-color: black;
   
 }
+.container{
+  display: inline-block;
+}
