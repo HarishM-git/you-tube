@@ -1,6 +1,6 @@
 .imag{
   width: 250px;
-  height:250px;
+  height:200px;
   object-fit: contain;
   border-width: 2px;
   object-position: top;
@@ -14,6 +14,7 @@
 
 }
 .input-box{
+  font-size:20px;
   padding:5px;
   margin-bottom: 15px;
 }
