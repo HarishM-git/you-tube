@@ -1,12 +1,9 @@
 .imag{
   width: 250px;
-  height:200px;
+ 
   object-fit: contain;
   border-width: 2px;
-  object-position: top;
-  border-style: solid;
-  border-color: black;
-  margin-right: 15px;
+  
 
 }
 .in{
@@ -26,4 +23,21 @@
 }
 .container{
   display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  margin-right: 15px;
+  
+  
+}
+
+
+
+.channel-image{
+  display: inline-block;
+  width: 83px;
+
+}
+.texts{
+  display: inline-block;
+  width: 163px;
 }
