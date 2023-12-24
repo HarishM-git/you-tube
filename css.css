@@ -35,12 +35,14 @@
 
 
 .channel-image{
+  
   display: inline-block;
   vertical-align: top;
   
 
 }
 .texts{
+
   display: inline-block;
   width: 163px;
 }
@@ -50,6 +52,7 @@
   border-radius: 90px;
 }
 .parag{
+  
   font-family: Roboto,Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 20px;
