@@ -32,23 +32,27 @@
 }
 
 
-
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
 
 .channel-image{
   
-  display: inline-block;
+
   vertical-align: top;
   
 
 }
+
 .texts{
 
-  display: inline-block;
+ 
   width: 163px;
 }
 .channel-img{
   
-  width: 40px;
+  width: 30px;
   border-radius: 90px;
 }
 .parag{
