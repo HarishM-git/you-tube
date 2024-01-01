@@ -2,16 +2,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between ;
+  padding-top: 5px;
+  padding-bottom: 5px;
   
   
 
 }
 .left-section{
-  background-color: aqua;
+  display: flex;
+  align-items: center;
+  /*background-color: aqua;
   
-  width: 150px;
+  width: 150px; 
+  
+  its just width that is fixed no need to remove it but we have loaded a img and setted it's height so it never enlarges so this width has no function hear after if you have doubt the un take the comment out and try it your self ok*/
 }
 .middle-section{
+  display: flex;
+  align-items: center;
   background-color: aquamarine;
   flex: 1;
   margin-left: 70px;
@@ -23,4 +31,32 @@
 .right-section{
   background-color: brown;
   width:200px;
+}
+
+.hamburger-icon{
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.youtube-icon{
+  height: 20px;
+}
+
+.search-button{
+  height: 32px;
+  width: 60px;
+}
+.voice-button{
+  height:32px;
+  width: 40px;
+}
+.input-box{
+  height: 32px;
+  flex:1;
+}
+.input-box::placeholder{
+  font-family: Roboto,Arial;
+  font-size: 16px;
+  
 }
