@@ -30,8 +30,12 @@
   
 }
 .right-section{
-  background-color: brown;
+ 
   width:200px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between ;
+
 }
 
 .hamburger-icon{
@@ -90,4 +94,22 @@
 .voice-icon{
   margin-top: 2px;
   width: 25px;
+}
+.profile-icon{
+  border-radius: 20px;
+  height: 40px;
+}
+.notification-icon{
+  margin-top: 8px;
+  height: 25px;
+}
+.apps-icon{
+  margin-top: 8px;
+
+  height: 25px;
+}
+.upload-icon{
+  margin-top: 8px;
+
+  height: 25px;
 }
