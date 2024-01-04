@@ -5,11 +5,12 @@ body{
   margin: 0;
   padding-top: 80px;
   padding-bottom: 1000px;
+  padding-left:80px ;
 }
 .full-container-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 15px;
-  column-gap: 30px;
+  column-gap: 10px;
 
 }
