@@ -9,6 +9,7 @@
 }
 .in{
   display: inline-block;
+  position: relative;
 
 }
  
@@ -49,4 +50,16 @@
   font-weight: 500;
   line-height: 20px;
   margin-top: 0px;
+}
+.time-info{
+  background-color: black;
+  color: white;
+  position:absolute;
+  right: 4px;
+  bottom: 16px;
+  font-family: Roboto,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 2px;
 }
