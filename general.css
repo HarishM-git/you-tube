@@ -1,5 +1,8 @@
 p{
-  font-family:Single Day ;
+  font-family:Roboto,Arial,sans-serif ;
+  font-weight: 300;
+  font-size: small;
+  color: gray;
 }
 body{
   margin: 0;
