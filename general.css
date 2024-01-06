@@ -5,15 +5,17 @@ p{
   color: gray;
 }
 body{
+  background-color: #f8f9fa;
   margin: 0;
-  padding-top: 80px;
+  padding-top: 90px;
   padding-bottom: 1000px;
-  padding-left:80px ;
+  padding-left:90px ;
+  padding-right: 25px;
 }
 .full-container-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 15px;
-  column-gap: 10px;
+  column-gap: 15px;
 
 }
